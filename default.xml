@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="omap" fetch="github.com/Michele-R" />
-
   <project path="Michele-R/testFolder" name="testFolder"/>
 
 </manifest>
