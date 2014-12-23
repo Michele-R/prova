@@ -4,6 +4,6 @@
   <default revision="master" remote="origin" />
 
   <project path="testFolder" name="testFolder" 
-           revision="master" />
+           revision="WEA-123" />
  
 </manifest>
