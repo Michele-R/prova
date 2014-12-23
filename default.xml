@@ -3,7 +3,7 @@
   <remote  name="michele_base" fetch="https://github.com/Michele-R" />
   <default revision="master" remote="michele_base" />
 
-  <project path="testFolder" name="testFolder" remote="testFolder"
+  <project path="testFolder" name="testFolder" 
            revision="master" />
  
 </manifest>
