@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="couchbase"
-           fetch="git://github.com/couchbase/"
-           review="review.membase.org" />
-  <remote  name="couchbaselabs"
-           fetch="git://github.com/couchbaselabs/"
-           review="review.membase.org" />
-  <default revision="master" remote="couchbase" />
+  <remote  name="michele_base" fetch="https://github.com/Michele-R" />
+  <default revision="master" remote="michele_base" />
 
-  <project path="couchbase-python-client" name="couchbase-python-client"
+  <project path="testFolder" name="testFolder" remote="couchbaselabs"
            revision="master" />
-  <project path="couchbase-examples" name="couchbase-examples"
-           remote="couchbaselabs"
-           revision="master" />
+ 
 </manifest>
