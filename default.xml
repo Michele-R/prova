@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="couchbase"
+           fetch="git://github.com/couchbase/"
+           review="review.membase.org" />
+  <remote  name="couchbaselabs"
+           fetch="git://github.com/couchbaselabs/"
+           review="review.membase.org" />
+  <default revision="master" remote="couchbase" />
 
-<!-- define hosts -->
-<remote name="testFolder" fetch="https://github.com/Michele-R"/>
-
-  
+  <project path="couchbase-python-client" name="couchbase-python-client"
+           revision="master" />
+  <project path="couchbase-examples" name="couchbase-examples"
+           remote="couchbaselabs"
+           revision="master" />
 </manifest>
