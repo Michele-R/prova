@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="origin_" fetch="https://github.com/Michele-R" />
+  <remote  name="origin" fetch="https://github.com/Michele-R" />
   <default revision="master" remote="origin" />
 
   <project path="testFolder" name="testFolder" 
