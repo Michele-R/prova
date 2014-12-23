@@ -5,5 +5,5 @@
 
   <project path="testFolder" name="testFolder" 
            revision="WEA-123" />
- 
+<!-- commento --> 
 </manifest>
